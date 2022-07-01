@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Travel</string>
+
+    <string name="password">Password</string>
+    <string-array name="Destination">
+        <item>Egypt</item>
+
+
+        <item>Italy</item>
+        <item>Russia</item>
+        <item>Saudi Arabia</item>
+        <item>Libya</item>
+        <item>France</item>
+
+        <item>Spain</item>
+        <item>China</item>
+        <item>Palestine</item>
+        <item>Morocco</item>
+        <item>Germany</item>
+
+        <item>Cairo</item>
+        <item>Alexandria</item>
+        <item>Luxor</item>
+        <item>Aswan</item>
+        <item>Fayoum</item>
+        <item>Giza</item>
+
+    </string-array>
+
+    <string-array name="Category">
+        <item>Bus</item>
+
+        <item>Plane</item>
+        <item>Train</item>
+
+
+    </string-array>
+</resources>

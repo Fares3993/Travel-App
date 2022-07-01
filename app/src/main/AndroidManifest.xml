@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_out_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_out_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelApp">
+        <activity android:name=".Receipt"
+            android:label="Receipt"
+            android:theme="@style/Second_Theme"
+            />
+        <activity
+            android:name=".About"
+            android:theme="@style/DemoTheme" />
+        <activity
+            android:name=".Trip_Details"
+            android:exported="true"
+            android:label="Trip Details"
+            android:theme="@style/Second_Theme" />
+        <activity
+            android:name=".Add_Trip_Activity"
+            android:exported="true"
+            android:label="Trip Details"
+            android:theme="@style/Second_Theme" />
+        <activity
+            android:name=".Admin"
+            android:exported="true"
+            android:theme="@style/DemoTheme" />
+        <activity
+            android:name=".Profile"
+            android:theme="@style/DemoTheme" />
+        <activity
+            android:name=".Destination"
+            android:label="Destination"
+            android:theme="@style/Second_Theme" />
+        <activity
+            android:name=".EmailverifiyActivity"
+            android:label="Destination"
+            android:theme="@style/DemoTheme" />
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:theme="@style/Second_Theme" />
+        <activity
+            android:name=".SignIn"
+            android:theme="@style/DemoTheme" />
+        <activity
+            android:name=".Show_travilsActivity"
+            android:label="Trips"
+            android:theme="@style/Second_Theme" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/DemoTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/DemoTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
